@@ -15,6 +15,12 @@
 		FEFB20702C1C61A200C14494 /* swift_omdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB206F2C1C61A200C14494 /* swift_omdbTests.swift */; };
 		FEFB207A2C1C61A200C14494 /* swift_omdbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */; };
 		FEFB207C2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */; };
+		FEFB208E2C1C79B400C14494 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB208D2C1C79B400C14494 /* Utils.swift */; };
+		FEFB20902C1C7A0300C14494 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB208F2C1C7A0300C14494 /* BaseNavigationController.swift */; };
+		FEFB20932C1C7A5300C14494 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20912C1C7A5300C14494 /* MovieListView.swift */; };
+		FEFB20942C1C7A5300C14494 /* MovieListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFB20922C1C7A5300C14494 /* MovieListView.xib */; };
+		FEFB20992C1C7F0E00C14494 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20982C1C7F0E00C14494 /* SearchField.swift */; };
+		FEFB209B2C1C7F1800C14494 /* SearchField.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFB209A2C1C7F1800C14494 /* SearchField.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		FEFB20752C1C61A200C14494 /* swift-omdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-omdbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbUITests.swift; sourceTree = "<group>"; };
 		FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEFB208D2C1C79B400C14494 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FEFB208F2C1C7A0300C14494 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		FEFB20912C1C7A5300C14494 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		FEFB20922C1C7A5300C14494 /* MovieListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListView.xib; sourceTree = "<group>"; };
+		FEFB20982C1C7F0E00C14494 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		FEFB209A2C1C7F1800C14494 /* SearchField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchField.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +112,10 @@
 				FEFB20582C1C61A100C14494 /* AppDelegate.swift */,
 				FEFB20662C1C61A200C14494 /* Info.plist */,
 				FEFB20882C1C63B800C14494 /* Foundation */,
+				FEFB20952C1C7EE200C14494 /* Helper */,
+				FEFB208A2C1C649D00C14494 /* Modules */,
 				FEFB20892C1C63D200C14494 /* Resources */,
+				FEFB208C2C1C798E00C14494 /* Utils */,
 			);
 			path = "swift-omdb";
 			sourceTree = "<group>";
@@ -138,6 +153,57 @@
 				FEFB20612C1C61A200C14494 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEFB208A2C1C649D00C14494 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB208B2C1C64AA00C14494 /* Movie */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FEFB208B2C1C64AA00C14494 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20912C1C7A5300C14494 /* MovieListView.swift */,
+				FEFB20922C1C7A5300C14494 /* MovieListView.xib */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		FEFB208C2C1C798E00C14494 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB208F2C1C7A0300C14494 /* BaseNavigationController.swift */,
+				FEFB208D2C1C79B400C14494 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FEFB20952C1C7EE200C14494 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20962C1C7EE900C14494 /* CustomView */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FEFB20962C1C7EE900C14494 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20972C1C7EF600C14494 /* SearchField */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FEFB20972C1C7EF600C14494 /* SearchField */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20982C1C7F0E00C14494 /* SearchField.swift */,
+				FEFB209A2C1C7F1800C14494 /* SearchField.xib */,
+			);
+			path = SearchField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEFB20622C1C61A200C14494 /* Assets.xcassets in Resources */,
+				FEFB20942C1C7A5300C14494 /* MovieListView.xib in Resources */,
 				FEFB20652C1C61A200C14494 /* Base in Resources */,
 				FEFB20602C1C61A100C14494 /* Base in Resources */,
+				FEFB209B2C1C7F1800C14494 /* SearchField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFB20992C1C7F0E00C14494 /* SearchField.swift in Sources */,
+				FEFB20902C1C7A0300C14494 /* BaseNavigationController.swift in Sources */,
 				FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */,
+				FEFB20932C1C7A5300C14494 /* MovieListView.swift in Sources */,
 				FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */,
+				FEFB208E2C1C79B400C14494 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
