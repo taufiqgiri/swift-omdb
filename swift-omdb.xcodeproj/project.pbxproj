@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20582C1C61A100C14494 /* AppDelegate.swift */; };
+		FEFB205B2C1C61A100C14494 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB205A2C1C61A100C14494 /* SceneDelegate.swift */; };
+		FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB205C2C1C61A100C14494 /* ViewController.swift */; };
+		FEFB20602C1C61A100C14494 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEFB205F2C1C61A100C14494 /* Base */; };
+		FEFB20622C1C61A200C14494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFB20612C1C61A200C14494 /* Assets.xcassets */; };
+		FEFB20652C1C61A200C14494 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEFB20642C1C61A200C14494 /* Base */; };
+		FEFB20702C1C61A200C14494 /* swift_omdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB206F2C1C61A200C14494 /* swift_omdbTests.swift */; };
+		FEFB207A2C1C61A200C14494 /* swift_omdbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */; };
+		FEFB207C2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEFB206C2C1C61A200C14494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFB204D2C1C61A100C14494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFB20542C1C61A100C14494;
+			remoteInfo = "swift-omdb";
+		};
+		FEFB20762C1C61A200C14494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFB204D2C1C61A100C14494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFB20542C1C61A100C14494;
+			remoteInfo = "swift-omdb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEFB20552C1C61A100C14494 /* swift-omdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-omdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFB20582C1C61A100C14494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEFB205A2C1C61A100C14494 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEFB205C2C1C61A100C14494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEFB205F2C1C61A100C14494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEFB20612C1C61A200C14494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFB20642C1C61A200C14494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFB20662C1C61A200C14494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFB206B2C1C61A200C14494 /* swift-omdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-omdbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFB206F2C1C61A200C14494 /* swift_omdbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbTests.swift; sourceTree = "<group>"; };
+		FEFB20752C1C61A200C14494 /* swift-omdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-omdbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbUITests.swift; sourceTree = "<group>"; };
+		FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFB20522C1C61A100C14494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFB20682C1C61A200C14494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFB20722C1C61A200C14494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEFB204C2C1C61A100C14494 = {
+			isa = PBXGroup;
+			children = (
+				FEFB20572C1C61A100C14494 /* swift-omdb */,
+				FEFB206E2C1C61A200C14494 /* swift-omdbTests */,
+				FEFB20782C1C61A200C14494 /* swift-omdbUITests */,
+				FEFB20562C1C61A100C14494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFB20562C1C61A100C14494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20552C1C61A100C14494 /* swift-omdb.app */,
+				FEFB206B2C1C61A200C14494 /* swift-omdbTests.xctest */,
+				FEFB20752C1C61A200C14494 /* swift-omdbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFB20572C1C61A100C14494 /* swift-omdb */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20582C1C61A100C14494 /* AppDelegate.swift */,
+				FEFB205A2C1C61A100C14494 /* SceneDelegate.swift */,
+				FEFB205C2C1C61A100C14494 /* ViewController.swift */,
+				FEFB205E2C1C61A100C14494 /* Main.storyboard */,
+				FEFB20612C1C61A200C14494 /* Assets.xcassets */,
+				FEFB20632C1C61A200C14494 /* LaunchScreen.storyboard */,
+				FEFB20662C1C61A200C14494 /* Info.plist */,
+			);
+			path = "swift-omdb";
+			sourceTree = "<group>";
+		};
+		FEFB206E2C1C61A200C14494 /* swift-omdbTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB206F2C1C61A200C14494 /* swift_omdbTests.swift */,
+			);
+			path = "swift-omdbTests";
+			sourceTree = "<group>";
+		};
+		FEFB20782C1C61A200C14494 /* swift-omdbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */,
+				FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */,
+			);
+			path = "swift-omdbUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFB20542C1C61A100C14494 /* swift-omdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFB207F2C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdb" */;
+			buildPhases = (
+				FEFB20512C1C61A100C14494 /* Sources */,
+				FEFB20522C1C61A100C14494 /* Frameworks */,
+				FEFB20532C1C61A100C14494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-omdb";
+			productName = "swift-omdb";
+			productReference = FEFB20552C1C61A100C14494 /* swift-omdb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEFB206A2C1C61A200C14494 /* swift-omdbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFB20822C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdbTests" */;
+			buildPhases = (
+				FEFB20672C1C61A200C14494 /* Sources */,
+				FEFB20682C1C61A200C14494 /* Frameworks */,
+				FEFB20692C1C61A200C14494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFB206D2C1C61A200C14494 /* PBXTargetDependency */,
+			);
+			name = "swift-omdbTests";
+			productName = "swift-omdbTests";
+			productReference = FEFB206B2C1C61A200C14494 /* swift-omdbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEFB20742C1C61A200C14494 /* swift-omdbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFB20852C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdbUITests" */;
+			buildPhases = (
+				FEFB20712C1C61A200C14494 /* Sources */,
+				FEFB20722C1C61A200C14494 /* Frameworks */,
+				FEFB20732C1C61A200C14494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFB20772C1C61A200C14494 /* PBXTargetDependency */,
+			);
+			name = "swift-omdbUITests";
+			productName = "swift-omdbUITests";
+			productReference = FEFB20752C1C61A200C14494 /* swift-omdbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFB204D2C1C61A100C14494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FEFB20542C1C61A100C14494 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FEFB206A2C1C61A200C14494 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FEFB20542C1C61A100C14494;
+					};
+					FEFB20742C1C61A200C14494 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FEFB20542C1C61A100C14494;
+					};
+				};
+			};
+			buildConfigurationList = FEFB20502C1C61A100C14494 /* Build configuration list for PBXProject "swift-omdb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEFB204C2C1C61A100C14494;
+			productRefGroup = FEFB20562C1C61A100C14494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFB20542C1C61A100C14494 /* swift-omdb */,
+				FEFB206A2C1C61A200C14494 /* swift-omdbTests */,
+				FEFB20742C1C61A200C14494 /* swift-omdbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEFB20532C1C61A100C14494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFB20622C1C61A200C14494 /* Assets.xcassets in Resources */,
+				FEFB20652C1C61A200C14494 /* Base in Resources */,
+				FEFB20602C1C61A100C14494 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFB20692C1C61A200C14494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFB20732C1C61A200C14494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFB20512C1C61A100C14494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */,
+				FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */,
+				FEFB205B2C1C61A100C14494 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFB20672C1C61A200C14494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFB20702C1C61A200C14494 /* swift_omdbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFB20712C1C61A200C14494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFB207C2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift in Sources */,
+				FEFB207A2C1C61A200C14494 /* swift_omdbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEFB206D2C1C61A200C14494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFB20542C1C61A100C14494 /* swift-omdb */;
+			targetProxy = FEFB206C2C1C61A200C14494 /* PBXContainerItemProxy */;
+		};
+		FEFB20772C1C61A200C14494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFB20542C1C61A100C14494 /* swift-omdb */;
+			targetProxy = FEFB20762C1C61A200C14494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEFB205E2C1C61A100C14494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFB205F2C1C61A100C14494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEFB20632C1C61A200C14494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFB20642C1C61A200C14494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEFB207D2C1C61A200C14494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEFB207E2C1C61A200C14494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFB20802C1C61A200C14494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292P5QPB73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-omdb/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taufiq.swift-omdb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEFB20812C1C61A200C14494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292P5QPB73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-omdb/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taufiq.swift-omdb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEFB20832C1C61A200C14494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292P5QPB73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taufiq.swift-omdbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-omdb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-omdb";
+			};
+			name = Debug;
+		};
+		FEFB20842C1C61A200C14494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292P5QPB73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taufiq.swift-omdbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-omdb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-omdb";
+			};
+			name = Release;
+		};
+		FEFB20862C1C61A200C14494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292P5QPB73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taufiq.swift-omdbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-omdb";
+			};
+			name = Debug;
+		};
+		FEFB20872C1C61A200C14494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292P5QPB73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taufiq.swift-omdbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-omdb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFB20502C1C61A100C14494 /* Build configuration list for PBXProject "swift-omdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFB207D2C1C61A200C14494 /* Debug */,
+				FEFB207E2C1C61A200C14494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFB207F2C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFB20802C1C61A200C14494 /* Debug */,
+				FEFB20812C1C61A200C14494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFB20822C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFB20832C1C61A200C14494 /* Debug */,
+				FEFB20842C1C61A200C14494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFB20852C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFB20862C1C61A200C14494 /* Debug */,
+				FEFB20872C1C61A200C14494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEFB204D2C1C61A100C14494 /* Project object */;
+}
