@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D2E102D1BE937DEA3EFE5A /* Pods_swift_omdb_swift_omdbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23511B66CE6F7E3677E6CBA6 /* Pods_swift_omdb_swift_omdbUITests.framework */; };
+		CE1953162FA1866C0450F6F6 /* Pods_swift_omdb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7682C1EA51810FB8DE5D22B3 /* Pods_swift_omdb.framework */; };
+		FB4F90AFD6304C207DDEBB15 /* Pods_swift_omdbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5BE8B9C603866B9252BB0 /* Pods_swift_omdbTests.framework */; };
 		FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20582C1C61A100C14494 /* AppDelegate.swift */; };
 		FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB205C2C1C61A100C14494 /* ViewController.swift */; };
 		FEFB20602C1C61A100C14494 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEFB205F2C1C61A100C14494 /* Base */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028E45E0DD065A801F7C356A /* Pods-swift-omdb-swift-omdbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdb-swift-omdbUITests.release.xcconfig"; path = "Target Support Files/Pods-swift-omdb-swift-omdbUITests/Pods-swift-omdb-swift-omdbUITests.release.xcconfig"; sourceTree = "<group>"; };
+		064140E71FD973E98520AA29 /* Pods-swift-omdb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdb.release.xcconfig"; path = "Target Support Files/Pods-swift-omdb/Pods-swift-omdb.release.xcconfig"; sourceTree = "<group>"; };
+		23511B66CE6F7E3677E6CBA6 /* Pods_swift_omdb_swift_omdbUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_omdb_swift_omdbUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FDD172BFB5E4FFF4A5FE2C /* Pods-swift-omdbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdbTests.release.xcconfig"; path = "Target Support Files/Pods-swift-omdbTests/Pods-swift-omdbTests.release.xcconfig"; sourceTree = "<group>"; };
+		6139DBD11B6DB6C3C2B36086 /* Pods-swift-omdb-swift-omdbUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdb-swift-omdbUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-omdb-swift-omdbUITests/Pods-swift-omdb-swift-omdbUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63C9D9260AB359F8203CBF7C /* Pods-swift-omdbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdbTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-omdbTests/Pods-swift-omdbTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7682C1EA51810FB8DE5D22B3 /* Pods_swift_omdb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_omdb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84F0CFAF1FF19085E030E52 /* Pods-swift-omdb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdb.debug.xcconfig"; path = "Target Support Files/Pods-swift-omdb/Pods-swift-omdb.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E5BE8B9C603866B9252BB0 /* Pods_swift_omdbTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_omdbTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB20552C1C61A100C14494 /* swift-omdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-omdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB20582C1C61A100C14494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEFB205C2C1C61A100C14494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1953162FA1866C0450F6F6 /* Pods_swift_omdb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4F90AFD6304C207DDEBB15 /* Pods_swift_omdbTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D2E102D1BE937DEA3EFE5A /* Pods_swift_omdb_swift_omdbUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A4FC3F126C59A88A960F9E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7682C1EA51810FB8DE5D22B3 /* Pods_swift_omdb.framework */,
+				23511B66CE6F7E3677E6CBA6 /* Pods_swift_omdb_swift_omdbUITests.framework */,
+				F6E5BE8B9C603866B9252BB0 /* Pods_swift_omdbTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92FDB8D7904B55358B2AB4D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C84F0CFAF1FF19085E030E52 /* Pods-swift-omdb.debug.xcconfig */,
+				064140E71FD973E98520AA29 /* Pods-swift-omdb.release.xcconfig */,
+				6139DBD11B6DB6C3C2B36086 /* Pods-swift-omdb-swift-omdbUITests.debug.xcconfig */,
+				028E45E0DD065A801F7C356A /* Pods-swift-omdb-swift-omdbUITests.release.xcconfig */,
+				63C9D9260AB359F8203CBF7C /* Pods-swift-omdbTests.debug.xcconfig */,
+				52FDD172BFB5E4FFF4A5FE2C /* Pods-swift-omdbTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FEFB204C2C1C61A100C14494 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				FEFB206E2C1C61A200C14494 /* swift-omdbTests */,
 				FEFB20782C1C61A200C14494 /* swift-omdbUITests */,
 				FEFB20562C1C61A100C14494 /* Products */,
+				92FDB8D7904B55358B2AB4D1 /* Pods */,
+				8A4FC3F126C59A88A960F9E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEFB207F2C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdb" */;
 			buildPhases = (
+				C713F26DDA71176D4B8D4316 /* [CP] Check Pods Manifest.lock */,
 				FEFB20512C1C61A100C14494 /* Sources */,
 				FEFB20522C1C61A100C14494 /* Frameworks */,
 				FEFB20532C1C61A100C14494 /* Resources */,
@@ -164,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEFB20822C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdbTests" */;
 			buildPhases = (
+				8B446A7AF72D2C1D0111E9E1 /* [CP] Check Pods Manifest.lock */,
 				FEFB20672C1C61A200C14494 /* Sources */,
 				FEFB20682C1C61A200C14494 /* Frameworks */,
 				FEFB20692C1C61A200C14494 /* Resources */,
@@ -182,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEFB20852C1C61A200C14494 /* Build configuration list for PBXNativeTarget "swift-omdbUITests" */;
 			buildPhases = (
+				662CD6BE96684F96B7CCFEAA /* [CP] Check Pods Manifest.lock */,
 				FEFB20712C1C61A200C14494 /* Sources */,
 				FEFB20722C1C61A200C14494 /* Frameworks */,
 				FEFB20732C1C61A200C14494 /* Resources */,
@@ -265,6 +309,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		662CD6BE96684F96B7CCFEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-omdb-swift-omdbUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B446A7AF72D2C1D0111E9E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-omdbTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C713F26DDA71176D4B8D4316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-omdb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEFB20512C1C61A100C14494 /* Sources */ = {
@@ -449,6 +562,7 @@
 		};
 		FEFB20802C1C61A200C14494 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84F0CFAF1FF19085E030E52 /* Pods-swift-omdb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +591,7 @@
 		};
 		FEFB20812C1C61A200C14494 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064140E71FD973E98520AA29 /* Pods-swift-omdb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,6 +620,7 @@
 		};
 		FEFB20832C1C61A200C14494 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C9D9260AB359F8203CBF7C /* Pods-swift-omdbTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,6 +641,7 @@
 		};
 		FEFB20842C1C61A200C14494 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FDD172BFB5E4FFF4A5FE2C /* Pods-swift-omdbTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -545,6 +662,7 @@
 		};
 		FEFB20862C1C61A200C14494 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6139DBD11B6DB6C3C2B36086 /* Pods-swift-omdb-swift-omdbUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +681,7 @@
 		};
 		FEFB20872C1C61A200C14494 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028E45E0DD065A801F7C356A /* Pods-swift-omdb-swift-omdbUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
