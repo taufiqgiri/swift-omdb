@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20582C1C61A100C14494 /* AppDelegate.swift */; };
-		FEFB205B2C1C61A100C14494 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB205A2C1C61A100C14494 /* SceneDelegate.swift */; };
 		FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB205C2C1C61A100C14494 /* ViewController.swift */; };
 		FEFB20602C1C61A100C14494 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEFB205F2C1C61A100C14494 /* Base */; };
 		FEFB20622C1C61A200C14494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFB20612C1C61A200C14494 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		FEFB20552C1C61A100C14494 /* swift-omdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-omdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB20582C1C61A100C14494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEFB205A2C1C61A100C14494 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEFB205C2C1C61A100C14494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEFB205F2C1C61A100C14494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEFB20612C1C61A200C14494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				FEFB20582C1C61A100C14494 /* AppDelegate.swift */,
-				FEFB205A2C1C61A100C14494 /* SceneDelegate.swift */,
-				FEFB205C2C1C61A100C14494 /* ViewController.swift */,
-				FEFB205E2C1C61A100C14494 /* Main.storyboard */,
-				FEFB20612C1C61A200C14494 /* Assets.xcassets */,
-				FEFB20632C1C61A200C14494 /* LaunchScreen.storyboard */,
 				FEFB20662C1C61A200C14494 /* Info.plist */,
+				FEFB20882C1C63B800C14494 /* Foundation */,
+				FEFB20892C1C63D200C14494 /* Resources */,
 			);
 			path = "swift-omdb";
 			sourceTree = "<group>";
@@ -125,6 +120,24 @@
 				FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */,
 			);
 			path = "swift-omdbUITests";
+			sourceTree = "<group>";
+		};
+		FEFB20882C1C63B800C14494 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20632C1C61A200C14494 /* LaunchScreen.storyboard */,
+				FEFB205E2C1C61A100C14494 /* Main.storyboard */,
+				FEFB205C2C1C61A100C14494 /* ViewController.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		FEFB20892C1C63D200C14494 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20612C1C61A200C14494 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +273,6 @@
 			files = (
 				FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */,
 				FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */,
-				FEFB205B2C1C61A100C14494 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
