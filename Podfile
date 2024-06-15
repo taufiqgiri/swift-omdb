@@ -7,6 +7,8 @@ target 'swift-omdb' do
 
   # Pods for swift-omdb
   pod 'Moya', '14.0.0'
+  pod 'Kingfisher'
+  pod 'RealmSwift'
 
   target 'swift-omdbTests' do
     inherit! :search_paths

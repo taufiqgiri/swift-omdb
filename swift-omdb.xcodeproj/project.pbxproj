@@ -10,6 +10,19 @@
 		23D2E102D1BE937DEA3EFE5A /* Pods_swift_omdb_swift_omdbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23511B66CE6F7E3677E6CBA6 /* Pods_swift_omdb_swift_omdbUITests.framework */; };
 		CE1953162FA1866C0450F6F6 /* Pods_swift_omdb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7682C1EA51810FB8DE5D22B3 /* Pods_swift_omdb.framework */; };
 		FB4F90AFD6304C207DDEBB15 /* Pods_swift_omdbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5BE8B9C603866B9252BB0 /* Pods_swift_omdbTests.framework */; };
+		FE7F05652C1CA0DE00803B0D /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05642C1CA0DE00803B0D /* BaseProvider.swift */; };
+		FE7F05672C1CEFD000803B0D /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05662C1CEFD000803B0D /* Reach.swift */; };
+		FE7F05692C1D091600803B0D /* APIMappingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05682C1D091600803B0D /* APIMappingProtocol.swift */; };
+		FE7F056B2C1D09C300803B0D /* NullableMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F056A2C1D09C300803B0D /* NullableMap.swift */; };
+		FE7F056D2C1D0A0900803B0D /* BaseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F056C2C1D0A0900803B0D /* BaseResponseModel.swift */; };
+		FE7F056F2C1D0A8D00803B0D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F056E2C1D0A8D00803B0D /* ErrorModel.swift */; };
+		FE7F05722C1D0D4C00803B0D /* MovieProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05712C1D0D4C00803B0D /* MovieProvider.swift */; };
+		FE7F05782C1D0FF000803B0D /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05772C1D0FF000803B0D /* MovieService.swift */; };
+		FE7F057A2C1D102800803B0D /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05792C1D102800803B0D /* MovieModel.swift */; };
+		FE7F057C2C1D1CB500803B0D /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F057B2C1D1CB500803B0D /* MovieViewModel.swift */; };
+		FE7F05802C1D3A6800803B0D /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7F057F2C1D3A6800803B0D /* MovieCell.xib */; };
+		FE7F05812C1D3A6800803B0D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F057E2C1D3A6800803B0D /* MovieCell.swift */; };
+		FE7F05852C1D6CB700803B0D /* MovieCacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05842C1D6CB700803B0D /* MovieCacheModel.swift */; };
 		FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20582C1C61A100C14494 /* AppDelegate.swift */; };
 		FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB205C2C1C61A100C14494 /* ViewController.swift */; };
 		FEFB20602C1C61A100C14494 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEFB205F2C1C61A100C14494 /* Base */; };
@@ -18,6 +31,12 @@
 		FEFB20702C1C61A200C14494 /* swift_omdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB206F2C1C61A200C14494 /* swift_omdbTests.swift */; };
 		FEFB207A2C1C61A200C14494 /* swift_omdbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */; };
 		FEFB207C2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */; };
+		FEFB208E2C1C79B400C14494 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB208D2C1C79B400C14494 /* Utils.swift */; };
+		FEFB20902C1C7A0300C14494 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB208F2C1C7A0300C14494 /* BaseNavigationController.swift */; };
+		FEFB20932C1C7A5300C14494 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20912C1C7A5300C14494 /* MovieListView.swift */; };
+		FEFB20942C1C7A5300C14494 /* MovieListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFB20922C1C7A5300C14494 /* MovieListView.xib */; };
+		FEFB20992C1C7F0E00C14494 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB20982C1C7F0E00C14494 /* SearchField.swift */; };
+		FEFB209B2C1C7F1800C14494 /* SearchField.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFB209A2C1C7F1800C14494 /* SearchField.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +66,19 @@
 		7682C1EA51810FB8DE5D22B3 /* Pods_swift_omdb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_omdb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84F0CFAF1FF19085E030E52 /* Pods-swift-omdb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-omdb.debug.xcconfig"; path = "Target Support Files/Pods-swift-omdb/Pods-swift-omdb.debug.xcconfig"; sourceTree = "<group>"; };
 		F6E5BE8B9C603866B9252BB0 /* Pods_swift_omdbTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_omdbTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7F05642C1CA0DE00803B0D /* BaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
+		FE7F05662C1CEFD000803B0D /* Reach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		FE7F05682C1D091600803B0D /* APIMappingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMappingProtocol.swift; sourceTree = "<group>"; };
+		FE7F056A2C1D09C300803B0D /* NullableMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullableMap.swift; sourceTree = "<group>"; };
+		FE7F056C2C1D0A0900803B0D /* BaseResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponseModel.swift; sourceTree = "<group>"; };
+		FE7F056E2C1D0A8D00803B0D /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		FE7F05712C1D0D4C00803B0D /* MovieProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProvider.swift; sourceTree = "<group>"; };
+		FE7F05772C1D0FF000803B0D /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		FE7F05792C1D102800803B0D /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		FE7F057B2C1D1CB500803B0D /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		FE7F057E2C1D3A6800803B0D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		FE7F057F2C1D3A6800803B0D /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		FE7F05842C1D6CB700803B0D /* MovieCacheModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCacheModel.swift; sourceTree = "<group>"; };
 		FEFB20552C1C61A100C14494 /* swift-omdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-omdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB20582C1C61A100C14494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEFB205C2C1C61A100C14494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +91,12 @@
 		FEFB20752C1C61A200C14494 /* swift-omdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-omdbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB20792C1C61A200C14494 /* swift_omdbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbUITests.swift; sourceTree = "<group>"; };
 		FEFB207B2C1C61A200C14494 /* swift_omdbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_omdbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEFB208D2C1C79B400C14494 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FEFB208F2C1C7A0300C14494 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		FEFB20912C1C7A5300C14494 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		FEFB20922C1C7A5300C14494 /* MovieListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListView.xib; sourceTree = "<group>"; };
+		FEFB20982C1C7F0E00C14494 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		FEFB209A2C1C7F1800C14494 /* SearchField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchField.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +147,84 @@
 				63C9D9260AB359F8203CBF7C /* Pods-swift-omdbTests.debug.xcconfig */,
 				52FDD172BFB5E4FFF4A5FE2C /* Pods-swift-omdbTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE7F05632C1CA0C800803B0D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05702C1D0D3600803B0D /* Providers */,
+				FE7F05642C1CA0DE00803B0D /* BaseProvider.swift */,
+				FE7F05682C1D091600803B0D /* APIMappingProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FE7F05702C1D0D3600803B0D /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05712C1D0D4C00803B0D /* MovieProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		FE7F05732C1D0F7800803B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F057D2C1D3A5200803B0D /* MovieCell */,
+				FEFB20912C1C7A5300C14494 /* MovieListView.swift */,
+				FEFB20922C1C7A5300C14494 /* MovieListView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE7F05742C1D0F8700803B0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F057B2C1D1CB500803B0D /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE7F05752C1D0F9000803B0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05792C1D102800803B0D /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE7F05762C1D0F9800803B0D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05772C1D0FF000803B0D /* MovieService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE7F057D2C1D3A5200803B0D /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F057E2C1D3A6800803B0D /* MovieCell.swift */,
+				FE7F057F2C1D3A6800803B0D /* MovieCell.xib */,
+			);
+			path = MovieCell;
+			sourceTree = "<group>";
+		};
+		FE7F05822C1D6C4A00803B0D /* CacheStorage */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05832C1D6C6800803B0D /* Models */,
+			);
+			path = CacheStorage;
+			sourceTree = "<group>";
+		};
+		FE7F05832C1D6C6800803B0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05842C1D6CB700803B0D /* MovieCacheModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FEFB204C2C1C61A100C14494 = {
@@ -141,7 +255,11 @@
 				FEFB20582C1C61A100C14494 /* AppDelegate.swift */,
 				FEFB20662C1C61A200C14494 /* Info.plist */,
 				FEFB20882C1C63B800C14494 /* Foundation */,
+				FEFB20952C1C7EE200C14494 /* Helper */,
+				FEFB208A2C1C649D00C14494 /* Modules */,
+				FE7F05632C1CA0C800803B0D /* Networking */,
 				FEFB20892C1C63D200C14494 /* Resources */,
+				FEFB208C2C1C798E00C14494 /* Utils */,
 			);
 			path = "swift-omdb";
 			sourceTree = "<group>";
@@ -181,6 +299,64 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FEFB208A2C1C649D00C14494 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB208B2C1C64AA00C14494 /* Movie */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FEFB208B2C1C64AA00C14494 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05752C1D0F9000803B0D /* Model */,
+				FE7F05732C1D0F7800803B0D /* View */,
+				FE7F05742C1D0F8700803B0D /* ViewModel */,
+				FE7F05762C1D0F9800803B0D /* Service */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		FEFB208C2C1C798E00C14494 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB208F2C1C7A0300C14494 /* BaseNavigationController.swift */,
+				FEFB208D2C1C79B400C14494 /* Utils.swift */,
+				FE7F05662C1CEFD000803B0D /* Reach.swift */,
+				FE7F056A2C1D09C300803B0D /* NullableMap.swift */,
+				FE7F056C2C1D0A0900803B0D /* BaseResponseModel.swift */,
+				FE7F056E2C1D0A8D00803B0D /* ErrorModel.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FEFB20952C1C7EE200C14494 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F05822C1D6C4A00803B0D /* CacheStorage */,
+				FEFB20962C1C7EE900C14494 /* CustomView */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FEFB20962C1C7EE900C14494 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20972C1C7EF600C14494 /* SearchField */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FEFB20972C1C7EF600C14494 /* SearchField */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB20982C1C7F0E00C14494 /* SearchField.swift */,
+				FEFB209A2C1C7F1800C14494 /* SearchField.xib */,
+			);
+			path = SearchField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +368,7 @@
 				FEFB20512C1C61A100C14494 /* Sources */,
 				FEFB20522C1C61A100C14494 /* Frameworks */,
 				FEFB20532C1C61A100C14494 /* Resources */,
+				EAE66742222557BA54D1B02D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +406,7 @@
 				FEFB20712C1C61A200C14494 /* Sources */,
 				FEFB20722C1C61A200C14494 /* Frameworks */,
 				FEFB20732C1C61A200C14494 /* Resources */,
+				BCF501926AAB9F5E71D785B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,9 +466,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7F05802C1D3A6800803B0D /* MovieCell.xib in Resources */,
 				FEFB20622C1C61A200C14494 /* Assets.xcassets in Resources */,
+				FEFB20942C1C7A5300C14494 /* MovieListView.xib in Resources */,
 				FEFB20652C1C61A200C14494 /* Base in Resources */,
 				FEFB20602C1C61A100C14494 /* Base in Resources */,
+				FEFB209B2C1C7F1800C14494 /* SearchField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +536,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BCF501926AAB9F5E71D785B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-omdb-swift-omdbUITests/Pods-swift-omdb-swift-omdbUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-omdb-swift-omdbUITests/Pods-swift-omdb-swift-omdbUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-omdb-swift-omdbUITests/Pods-swift-omdb-swift-omdbUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C713F26DDA71176D4B8D4316 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +575,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EAE66742222557BA54D1B02D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-omdb/Pods-swift-omdb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-omdb/Pods-swift-omdb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-omdb/Pods-swift-omdb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,8 +599,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFB20992C1C7F0E00C14494 /* SearchField.swift in Sources */,
+				FE7F05812C1D3A6800803B0D /* MovieCell.swift in Sources */,
+				FE7F056B2C1D09C300803B0D /* NullableMap.swift in Sources */,
+				FE7F05692C1D091600803B0D /* APIMappingProtocol.swift in Sources */,
+				FE7F05672C1CEFD000803B0D /* Reach.swift in Sources */,
+				FEFB20902C1C7A0300C14494 /* BaseNavigationController.swift in Sources */,
 				FEFB205D2C1C61A100C14494 /* ViewController.swift in Sources */,
+				FE7F05782C1D0FF000803B0D /* MovieService.swift in Sources */,
+				FE7F056F2C1D0A8D00803B0D /* ErrorModel.swift in Sources */,
+				FEFB20932C1C7A5300C14494 /* MovieListView.swift in Sources */,
+				FE7F05652C1CA0DE00803B0D /* BaseProvider.swift in Sources */,
 				FEFB20592C1C61A100C14494 /* AppDelegate.swift in Sources */,
+				FE7F057C2C1D1CB500803B0D /* MovieViewModel.swift in Sources */,
+				FEFB208E2C1C79B400C14494 /* Utils.swift in Sources */,
+				FE7F057A2C1D102800803B0D /* MovieModel.swift in Sources */,
+				FE7F05852C1D6CB700803B0D /* MovieCacheModel.swift in Sources */,
+				FE7F05722C1D0D4C00803B0D /* MovieProvider.swift in Sources */,
+				FE7F056D2C1D0A0900803B0D /* BaseResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +800,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 292P5QPB73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-omdb/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -576,6 +808,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,6 +831,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 292P5QPB73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-omdb/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -605,6 +839,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
