@@ -7,9 +7,19 @@
 
 import UIKit
 
+protocol SearchFieldDelegate: AnyObject {
+    func didIdleTyping()
+    func didEndEditing()
+}
+
 class SearchField: UIView {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var searchTextField: UITextField!
+    
+    public var text: String = ""
+    
+    var typingTimer: Timer?
+    weak var delegate: SearchFieldDelegate?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -35,6 +45,7 @@ class SearchField: UIView {
         containerView.layer.cornerRadius = 10
         containerView.backgroundColor = UIColor.white.withAlphaComponent(0.2)
         
+        searchTextField.delegate = self
         searchTextField.borderStyle = .none
         searchTextField.textColor = .white
         
@@ -44,5 +55,36 @@ class SearchField: UIView {
             string: placeholderText,
             attributes: [NSAttributedString.Key.foregroundColor: placeholderColor]
         )
+        
+        searchTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+    }
+    
+    @objc private func textFieldDidChange(_ textField: UITextField) {
+        text = textField.text ?? ""
+    }
+}
+
+extension SearchField: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        resetTypingTimer()
+        return true
+    }
+
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        resetTypingTimer()
+    }
+
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        typingTimer?.invalidate()
+        delegate?.didEndEditing()
+    }
+
+    func resetTypingTimer() {
+        typingTimer?.invalidate()
+        typingTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(userStoppedTyping), userInfo: nil, repeats: false)
+    }
+
+    @objc func userStoppedTyping() {
+        delegate?.didIdleTyping()
     }
 }
